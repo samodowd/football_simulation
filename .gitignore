@@ -1,0 +1,34 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and local settings
+*.log
+*.sqlite3
+
+# Ignore system files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+*.cover
+.pytest_cache/
+
+# Ignore cache and temporary files
+*.swp
+*.swo
+*.swn

@@ -14,7 +14,7 @@ AV_GOALS_FOR = "Av_Goals_For"
 AV_GOALS_AGAINST = "Av_Goals_Against"
 
 # Download latest version
-# path = kagglehub.dataset_download("mertbayraktar/english-premier-league-matches-20232024-season")
+path = kagglehub.dataset_download("mertbayraktar/english-premier-league-matches-20232024-season")
 csv_path = os.path.join(path, "matches.csv")
 score_data = pd.read_csv(filepath_or_buffer=csv_path)
 
